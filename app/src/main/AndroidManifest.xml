@@ -12,6 +12,9 @@
         android:theme="@style/Theme.IGTIAndroidUnit1"
         tools:targetApi="31">
         <activity
+            android:name=".exibir_mensagem"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
